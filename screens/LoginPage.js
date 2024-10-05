@@ -11,7 +11,7 @@ const LoginPage = ({navigation}) => {
   // This prompts the users to enter the username & password of their choice
   const handleLogin = () => {
       if (username && password) {
-        navigation.navigate('HomePage'); // Navigate to Home screen after login
+        navigation.navigate('HomePage'); // Navigates to Home screen after login
       } else {
         alert('Please enter both username and password.');
       }

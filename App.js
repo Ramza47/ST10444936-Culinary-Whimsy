@@ -17,7 +17,7 @@ import MenuScreen from "./screens/MenuScreen";
       <Stack.Navigator initialRouteName="LoginPage">
         <Stack.Screen
         name="LoginPage"
-        component={LoginPage}  // Make sure it's a valid React component
+        component={LoginPage} 
         options={{ headerShown: false }}
       />
 

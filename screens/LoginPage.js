@@ -49,7 +49,7 @@ const LoginPage = ({navigation}) => {
       />
 
     
-
+      {/* This navigates the user to the other screen after selecting */}
       <Button title="Login" onPress={handleLogin} />
     </View>
           </ScrollView>

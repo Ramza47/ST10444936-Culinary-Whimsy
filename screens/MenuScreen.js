@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
 
-// Ensure that both route and navigation are passed as props
+
 const MenuScreen = ({ route, navigation }) => {
   const { menu } = route.params;
 
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   subtitle: {
-    fontSize: 16,
+    fontSize: 20,
     marginBottom: 20,
     color: '#666',
   },
@@ -58,12 +58,12 @@ const styles = StyleSheet.create({
     borderBottomColor: '#ccc',
   },
   menuText: {
-    fontSize: 16,
+    fontSize: 20,
     color: '#333',
     marginBottom: 5,
   },
   priceText: {
-    fontSize: 16,
+    fontSize: 20,
     color: '#FEFAE0',  // Green color for price
     fontWeight: 'bold',
   },

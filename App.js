@@ -36,3 +36,5 @@ import MenuScreen from "./screens/MenuScreen";
     </NavigationContainer>
   );
 };
+
+// https://chatgpt.com/c/66f5e74b-eb2c-8013-ab03-a380f0ef6f1e

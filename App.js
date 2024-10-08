@@ -37,4 +37,4 @@ import MenuScreen from "./screens/MenuScreen";
   );
 };
 
-// https://chatgpt.com/c/66f5e74b-eb2c-8013-ab03-a380f0ef6f1e
+// OpenAI. 2024. Chat-GPT (Version 3.5). [Large langauge model]. Available at: https://chatgpt.com/c/66f5e74b-eb2c-8013-ab03-a380f0ef6f1e [Accessed: 30 October 2024].

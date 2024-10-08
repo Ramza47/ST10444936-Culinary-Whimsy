@@ -148,6 +148,7 @@ const HomePage = ({navigation}) => {
             style={{ borderWidth: 2, marginBottom: 20, padding: 10 }}
           />
 
+          {/* This navigates the user to the Added Menu screen after clicking the button*/}
           <Button title="Add to Menu" onPress={addMenuItem} />
         </View>
       </ScrollView>
